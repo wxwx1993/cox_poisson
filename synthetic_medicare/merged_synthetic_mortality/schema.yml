@@ -1,0 +1,96 @@
+fipscounty:
+  type: integer
+  description: '5 Digit FIPS Code for County'
+ssacounty:
+  type: integer
+  description: 'CMS County Code'
+DESYNPUF_ID:
+  type: character
+  description: 'Individual ID witin Synthetic Medicare Data'
+BENE_BIRTH_DT:
+  type: Date
+  description: 'Individual Birth Date'
+BENE_DEATH_DT:
+  type: Date
+  description: 'Individual Death Date'
+BENE_SEX_IDENT_CD:
+  type: integer
+  description: 'Individual Sex Code'
+BENE_RACE_CD:
+  type: integer
+  description: 'Individual Race Code'
+SP_STATE_CODE:
+  type: integer
+  description: 'CMS Numeric State Code'
+BENE_COUNTY_CD:
+  type: integer
+  description: 'CMS Numeric County Code'
+year:
+  type: integer
+  description: 'Year'
+dead:
+  type: logical
+  description: 'Did the individual die this year'
+age:
+  type: numeric
+  description: 'Age of the individual'
+state:
+  type: character
+  description: '2 Character State Code'
+region:
+  type: character
+  description: 'Categorical, US regions, Northeast, South, West, Midwest'
+smoke_rate:
+  type: numeric
+  description: 'Smoking Rate in the county, from BRFSS data'
+mean_bmi:
+  type: numeric
+  description: 'Mean BMI in the county, from BRFSS Data'
+summer_tmmx:
+  type: numeric
+  description: 'Mean Daily Max Temperature in the summer'
+summer_rmax:
+  type: numeric
+  description: 'Mean Daily Max relative humidity in the summer'
+winter_tmmx:
+  type: numeric
+  description: 'Mean Daily Max Temperature in the winter'
+winter_rmax:
+  type: numeric
+  description: 'Mean Daily Max relative humidity in the winter'
+poverty:
+  type: numeric
+  description: 'poverty rate in the above 65 population'
+popdensity:
+  type: numeric
+  description: 'population density'
+medianhousevalue:
+  type: numeric
+  description: 'median owner occupied house value'
+pct_blk:
+  type: numeric
+  description: '% of the population that is black'
+medhouseholdincome:
+  type: numeric
+  description: 'median household income'
+pct_owner_occ:
+  type: numeric
+  description: '% of housing that is owner occuped'
+hispanic:
+  type: numeric
+  description: '% of the population that is hispanic'
+education:
+  type: numeric
+  description: '% of the population older than 65 graduating high school'
+population:
+  type: numeric
+  description: 'total population'
+pct_asian:
+  type: numeric
+  description: '% of the population that is asian'
+pct_native:
+  type: numeric
+  description: '% of the population that is indigenous'
+pct_white:
+  type: numeric
+  description: '% of the population that is white'
